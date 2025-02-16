@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "generate-folder-structure",
+  "title": "Generate Folder Structure",
+  "type": "object",
+  "properties": {
+    "auth": {
+      "type": "boolean",
+      "description": "Include authentication setup (Firebase).",
+      "default": false
+    },
+    "eslint": {
+      "type": "boolean",
+      "description": "Configure ESLint and Prettier.",
+      "default": false
+    }
+  }
+}
