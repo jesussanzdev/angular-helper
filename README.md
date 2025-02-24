@@ -20,3 +20,7 @@ This Angular Schematics package provides a streamlined way to set up new Angular
 
 - Automatically installs and configures ESLint and Prettier for code quality.
 - Includes best-practice rules and optional Husky pre-commit hooks.
+
+#### Execution
+npm run build
+schematics .:generate-folder-structure --dry-run=false
