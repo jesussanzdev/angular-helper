@@ -23,4 +23,4 @@ This Angular Schematics package provides a streamlined way to set up new Angular
 
 #### Execution
 npm run build
-schematics .:generate-folder-structure --dry-run=false
+schematics .:generate-folder-structure --dry-run=false --eslint
