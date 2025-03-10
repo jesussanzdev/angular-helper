@@ -1,17 +1,19 @@
 {
   "$schema": "http://json-schema.org/schema",
   "$id": "generate-folder-structure",
-  "title": "Generate Folder Structure",
+  "title": "Angular Helper",
   "type": "object",
   "properties": {
-    "auth": {
-      "type": "boolean",
-      "description": "Include authentication setup (Firebase).",
-      "default": false
-    },
     "eslint": {
       "type": "boolean",
-      "description": "Configure ESLint and Prettier.",
+      "description": "Configure ESLint and Prettier",
+      "x-prompt": "Do you want to configure ESLint and Prettier?",
+      "default": false
+    },
+    "editor": {
+      "type": "boolean",
+      "description": "Configuration of Editor Config",
+      "x-prompt": "Do you want to configure an Editor Configuration?",
       "default": false
     }
   }

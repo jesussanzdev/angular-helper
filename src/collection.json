@@ -3,7 +3,7 @@
   "schematics": {
     "generate-folder-structure": {
       "description": "Generate a base folder structure for Angular projects",
-      "factory": "../dist/generate-folder-structure/index.js#generateFolderStructure",
+      "factory": "../dist/generate-folder-structure/index.js#angularHelperSchematic",
       "schema": "./generate-folder-structure/schema.json"
     }
   }

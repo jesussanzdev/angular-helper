@@ -11,16 +11,16 @@ This Angular Schematics package provides a streamlined way to set up new Angular
 - Creates a well-organized structure with `core/`, `shared/`, and `features/` directories.
 - Encourages scalable and maintainable architecture.
 
-### 🔐 Add Firebase Authentication
-
-- Sets up a basic authentication layer using Firebase.
-- Generates authentication services and guards for secure routing.
-
 ### 🎨 Configure ESLint and Prettier
 
 - Automatically installs and configures ESLint and Prettier for code quality.
 - Includes best-practice rules and optional Husky pre-commit hooks.
 
-#### Execution
+### 📝 Generate Editor Config File
+
+- Produces an EditorConfig file with comprehensive configurations to maintain consistent coding styles across different editors and IDEs.
+
+#### ⚙️ Execution Steps
+npm install
 npm run build
-schematics .:generate-folder-structure --dry-run=false --eslint
+schematics .:generate-folder-structure --dry-run=false
